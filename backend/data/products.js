@@ -1,7 +1,42 @@
 const products = [
   {
-    name: 'Airpods Wireless Bluetooth Headphones',
-    image: '/images/airpods.jpg',
+    name: 'Pandora Bracelet',
+    image: '/images/pandora.jpg',
+    description: 'A bracelet that Andrew Zang like the most as accessories',
+    brand: 'Pandora',
+    category: 'Accessories',
+    price: 99.99,
+    countInStock: 7,
+    rating: 5,
+    numReviews: 10,
+  },
+  {
+    name: 'Yeezy 350',
+    image: '/images/yeezy350.jpg',
+    description:
+      'Comfortable Sneaker that Andrew Zang like to wear on a daily basis',
+    brand: 'Adidas',
+    category: 'Shoes',
+    price: 300.0,
+    countInStock: 11,
+    rating: 4.7,
+    numReviews: 12,
+  },
+  {
+    name: 'Atelier Cologne California',
+    image: '/images/california.jpg',
+    description:
+      'cologne that Andrew Zang use every day and he likes the little smell of smoke',
+    brand: 'Atelier',
+    category: 'Cologne',
+    price: 149.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    name: 'Airpods Pro Wireless Bluetooth Headphones',
+    image: '/images/airpodspro.jpg',
     description:
       'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
     brand: 'Apple',
@@ -12,10 +47,10 @@ const products = [
     numReviews: 12,
   },
   {
-    name: 'iPhone 11 Pro 256GB Memory',
+    name: 'iPhone 12 Pro 256GB Memory',
     image: '/images/phone.jpg',
     description:
-      'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
+      'Introducing the iPhone 12 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
     brand: 'Apple',
     category: 'Electronics',
     price: 599.99,
@@ -24,7 +59,7 @@ const products = [
     numReviews: 8,
   },
   {
-    name: 'Cannon EOS 80D DSLR Camera',
+    name: 'Sony A7M3 DSLR Camera',
     image: '/images/camera.jpg',
     description:
       'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
@@ -33,42 +68,6 @@ const products = [
     price: 929.99,
     countInStock: 5,
     rating: 3,
-    numReviews: 12,
-  },
-  {
-    name: 'Sony Playstation 4 Pro White Version',
-    image: '/images/playstation.jpg',
-    description:
-      'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
-    brand: 'Sony',
-    category: 'Electronics',
-    price: 399.99,
-    countInStock: 11,
-    rating: 5,
-    numReviews: 12,
-  },
-  {
-    name: 'Logitech G-Series Gaming Mouse',
-    image: '/images/mouse.jpg',
-    description:
-      'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
-    brand: 'Logitech',
-    category: 'Electronics',
-    price: 49.99,
-    countInStock: 7,
-    rating: 3.5,
-    numReviews: 10,
-  },
-  {
-    name: 'Amazon Echo Dot 3rd Generation',
-    image: '/images/alexa.jpg',
-    description:
-      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
-    brand: 'Amazon',
-    category: 'Electronics',
-    price: 29.99,
-    countInStock: 0,
-    rating: 4,
     numReviews: 12,
   },
 ];

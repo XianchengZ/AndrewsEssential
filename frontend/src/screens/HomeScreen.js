@@ -34,7 +34,7 @@ const HomeScreen = ({ match }) => {
           Go Back
         </Link>
       )}
-      <h1>Latest Products</h1>
+      <h1>Andrew's Favorites</h1>
       {loading ? (
         <Loader />
       ) : error ? (
@@ -43,7 +43,14 @@ const HomeScreen = ({ match }) => {
         <>
           <Row>
             {products.map((product) => (
-              <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
+              <Col
+                key={product._id}
+                sm={12}
+                md={6}
+                lg={4}
+                xl={3}
+                style={{ marginBottom: '20px' }}
+              >
                 <Product product={product} />
               </Col>
             ))}
